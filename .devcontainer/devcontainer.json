@@ -21,3 +21,11 @@
   },
   "postCreateCommand": "/bin/bash -ex ./.devcontainer/setup.sh > postCreateCommand.log"
 }
+
+{
+  "image": "mcr.microsoft.com/devcontainers/universal",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/deno": {},
+    "ghcr.io/devcontainers-contrib/features/neovim": {}
+  }
+}
